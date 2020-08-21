@@ -35,6 +35,15 @@ class Landing extends Component {
                         </div>
                     </Cell>
                 </Grid>
+                <div className='test-body' style={{paddingBottom: "2rem"}}>
+                    
+                <h2 style={{paddingLeft: '11em', color: 'ivory'}}>Testimonials</h2>
+                <Grid className='test-grid' style={{ paddingBottom: "2rem" }}>
+                    <hr style={{borderTop: '3px solid #833fb2', width: '100%', alignItems: 'center'}}/>
+                            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontFamily: 'Bebas Neue', fontSize:'24px' }}>
+                            Saadiq is a well-organized and self-motivated student. He has maintained generally good results in his work throughout. Godwin Dzvapatsva (Head of Curriculum and Learning)</p>
+                </Grid>
+            </div>
             </div>
         )
     }
