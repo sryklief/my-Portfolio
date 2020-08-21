@@ -24,8 +24,10 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>M.Saadiq Ryklief</h2>
             <h4 style={{color: 'rgb(46, 46, 46)'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <p>I am a commited and dedicated individual who is aspiring to become a Junior Web Developer. I enjoy creating and designing eye catching web pages. My passion is Front-End development but i am trying to better my skill in Back-end development to one day become a Full Stack Developer</p>
+            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>15 Dien Street Grassy Park, 7941</p>
+            <p>Grassy Park, 7941</p>
             <h5>Phone</h5>
             <p>081 503 3058</p>
             <h5>Email</h5>
@@ -54,26 +56,22 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={2019}
               endYear={2019}
               jobName="Semi Skilled Pipe Fitter"
-              jobDescription="My resposibilities were cutting and prepping material for installation."
+              jobDescription="My responsibilities were cutting and prepping material for installation."
               />
 
               <Experience
-                startYear={2019}
                 endYear={2019}
                 jobName="Events"
-                jobDescription="Work for Gelileo, My job setting up and taking down aswell assisting with the running of the event."
+                jobDescription="Working for Gelileo, my job was setting up and taking down equipment aswell assisting with the running of the event."
                 />
                 <Experience
-                startYear={2019}
                 endYear={2019}
                 jobName="Events"
-                jobDescription="Work for Take Note SA, My job setting up and taking down aswell assisting with the running of the event."
+                jobDescription="Working for Take Note SA, my job was setting up and taking down aswell assisting with the running of the event."
                 />
                 <Experience
-                startYear={2019}
                 endYear={2019}
                 jobName="Promotional"
                 jobDescription="Promoting brands for isiLumko."
@@ -82,7 +80,7 @@ class Resume extends Component {
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={40}
+                progress={35}
                 />
                 <Skills
                   skill="HTML/CSS"
