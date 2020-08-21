@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import {BrowserRouter} from 'react-router-dom';
-import { Link } from 'react-router-dom';
-
 
 class Projects extends Component {
   constructor(props) {
@@ -46,10 +43,24 @@ class Projects extends Component {
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}} >Contact Keeper</CardTitle>
                 <CardText>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                  Web application made to save contacts.
                 </CardText>
                 <CardActions border>
                 <Button colored style={{paddingLeft: '120px'}} href='https://github.com/sryklief/Contact-Keeper' target="_blank">GitHub</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
+
+              {/* Project 4 */}
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://reactjs.org/logo-og.png) center / cover'}} >E-Commerce</CardTitle>
+                <CardText>
+                  E-commerce site that sell pigeon supplies
+                </CardText>
+                <CardActions border>
+                <Button colored style={{paddingLeft: '120px'}} href='https://github.com/sryklief/project-1' target="_blank">GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                   <IconButton name="share" />
